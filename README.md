@@ -1,10 +1,6 @@
-> # Get Git
+# COMPLETE GIT HANDBOOK 📚
+
 <br>
-
-## **Goal**
-Install Git on your computer and configure your name and email.
-
-<hr><br>
 
 ## Git
 
@@ -12,7 +8,7 @@ Git is free  **open source software**  (the  [source code is public](https://git
 
 Git is a program for keeping track of changes over time, known in programming as  **version control**. If you've used a track changes feature in a text editing software then you're already familiar with the concept!
 
-<hr><br>
+<br>
 
 ## Install Git
 
@@ -23,33 +19,7 @@ We recommend installing Git on your computer by installing the  [latest version]
 
 Already have Git or not sure? Type  `git --version`  in your terminal and if it returns a version number higher than  `1.7.10`, you're set! For more information, visit the  [Git website](http://git-scm.com).
 
-<hr><br>
-
-
-### Configure Git
-
-Once Git is installed, open your  **terminal**. You can verify that Git is really there by typing:
-
-`git --version`
-
-This will return the version of Git on your computer and look something like this:
-
-`git version 1.9.1`
-
-Next, configure Git so it knows to associate your work to you:
-
-Set your name:
-
-`git config --global user.name "Your Name"`
-
-Now set your email:
-
-`git config --global user.email "youremail@example.com"`
-
-You're done with your first challenge! Click the 'Verify' button to check the challenge.
-
-<hr><br>
-
+<br>
 
 ### Configure Git
 
@@ -73,26 +43,52 @@ Now set your email:
 
 You're done with your first challenge! Click the 'Verify' button to check the challenge.
 
+<br>
 
-<hr><hr><br>
+### Configure Git
+
+Once Git is installed, open your  **terminal**. You can verify that Git is really there by typing:
+
+`git --version`
+
+This will return the version of Git on your computer and look something like this:
+
+`git version 1.9.1`
+
+Next, configure Git so it knows to associate your work to you:
+
+Set your name:
+
+`git config --global user.name "Your Name"`
+
+Now set your email:
+
+`git config --global user.email "youremail@example.com"`
+
+You're done with your first challenge! Click the 'Verify' button to check the challenge.
+
+<br>
 
 > # REPOSITORY
+
 <br>
 
 ## **Goal**
 Install Git on your computer and configure your name and email.
 
-<hr><br>
+<br>
 
 ## Repositories
 
 A  **repository**  is a collection of related items. In our case, when writing software, it is a collection of files related to a software project. You can imagine it as a project folder with all the relevant files inside of it. In fact, that's what it will look like on your computer anyways. Sometimes they're called 'repos' for short
 
-***Repositories just look like normal folders on your computer. However there is an important difference: Their content is beeing tracked by Git.***
+![git_branch_image](https://github.com/ad1tya-v3rma/hackober-repo--1/blob/main/images/repo.PNG)
+
+*Repositories just look like normal folders on your computer. However there is an important difference: Their content is beeing tracked by Git.*
 
 You tell Git what your project is and Git will start tracking all of the changes to that folder. This makes it a Git repository: a folder of items being tracked by Git. Git tracks when files are added, subtracted or even a single letter in a single file is changed. All of this plus who did it and when is tracked by Git. In software, tracking changes like this is called version control.
 
-<hr><br>
+<br>
 
 ## Using Terminal
 
@@ -102,7 +98,7 @@ Besides navigating your computer, you can also use programs in Terminal that hav
 
 In Git-it you'll learn a few basic command-line actions (in addition to Git commands) for navigating your computer. They're described within the steps.
 
-<hr><br>
+<br>
 
 ### Create a Repository
 
@@ -131,9 +127,10 @@ The last command should return something starting with 'Initialized empty Git re
 You did it! If you want to be double-sure that it's a Git repository, type  `git status`  and if it doesn't return 'fatal: Not a git repository...', you're golden!
 
 
-<hr><hr><br>
+<br>
 
 > # COMMIT TO IT
+
 <br>
 
 ## Commits
@@ -167,7 +164,7 @@ Finally,  **commit**  those changes to the repository's history with a short (m)
 
 `git commit -m "Created readme"`
 
-<hr><br>
+<br>
 
 
 ### Step: Make More Changes
@@ -183,9 +180,10 @@ Tell Git to show you the  **diff**:
 Now with what you just learned above, commit this latest change.
 
 
-<hr><hr><br>
+<br>
 
 > # CONNECTING GITHUB
+
 <br>
 
 
@@ -195,13 +193,13 @@ The repository you've created so far is just on your computer, which is handy, b
 
 GitHub is a website that allows people everywhere to upload what they're working on with Git so that everyone can easily work together on the same project. GitHub which acts as the central repository for you and everyone else to share. You push your changes to it and pull down changes from others.
 
-<hr><br>
+<br>
 
 ### Create a GitHub Account
 
 Visit  [github.com](https://github.com)  and sign up for a free account.  **High five, welcome!**
 
-<hr><br>
+<br>
 
 ### Add GitHub username to Git
 
@@ -215,13 +213,11 @@ You can double check what you have set in your Git config by typing:
 
 `git config --global user.username`
 
-
-
-<hr><hr><br>
-
-> # REMOTE CONTROL
 <br>
 
+> # REMOTE CONTROL
+
+<br>
 
 ## Remotes
 
@@ -229,9 +225,11 @@ When you put something on GitHub that copy lives on one of GitHub's servers. Thi
 
 Others can always then get the latest from your project by  **pulling**  your changes down from the remote (and onto their computer). This is how everyone can work on a project together without needing access to your computer where your local copy is stored.
 
+![git_branch_image](https://github.com/ad1tya-v3rma/hackober-repo--1/blob/main/images/repo.PNG)
+
 *The illustration shows a server (e.g. by GitHub), holding the **remote** repository and two computers, each of them holding a **local** copy of the repository. You can either access and edit the remote repository with your browser or edit the repository locally and tell your computer (on **terminal**) to talk to the server.*
 
-<hr><br>
+<br>
 
 ### Create a Remote Repository
 
