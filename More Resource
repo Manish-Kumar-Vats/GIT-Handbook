@@ -1,0 +1,38 @@
+## Resources
+
+To reinforce what you just learned or to try another way, here are suggestions for other guides and tutorials.
+If you're ready to dive into a project, jump to the [beginner projects](#what-next) section.
+
+#### Interactive Tutorial
+
+-   [Learn Git Branching](https://learngitbranching.js.org)  (Uses an terminal emulator) by Peter Cottle
+
+
+-   [Introduction to Git](http://git-scm.com/docs/gittutorial)  by Git
+-   [Pro Git Book](http://git-scm.com/book/en/v2)  by Scott Chacon
+-   [Simple Guide](http://rogerdudler.github.io/git-guide/)  by Roger Dudler
+-   [Github Help](https://help.github.com/)  by GitHub
+-   [Git Immersion](http://gitimmersion.com/)  by Neo
+-   [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)  by GitHub
+-   [GitHub Guides](https://guides.github.com)  by GitHub
+-   [GitHub Kaigi](https://speakerdeck.com/yunico/20140601-github-kaigi-yunico?slide=16)  by Yunico Nagata
+
+#### GitHub Desktop
+
+You likely installed this before you started Git-it but if you didn't, here's the link.
+
+The GitHub Desktop app lets you do much of what you can do in terminal (though not all) and is a bit easier to read at times. Personally, I use it to look over anything not small  `diff`  I have. Your changes are really nice to see this way.
+
+-   [Github Desktop App](https://desktop.github.com/)  (OSX, Windows) by GitHub
+-   [Github Desktop Guides](https://help.github.com/desktop/)  by GitHub
+
+You can checkout further git desktop applications on the Git website:  [Git GUIs](https://www.git-scm.com/downloads/guis)
+
+## What Next?
+
+Now that you're feeling good because you've got the fundamentals down, here are some beginner project ideas to keep you going!
+
+-   [Fork this](http://github.com/jlord/hello)  to create a personal website (Requires HTML & CSS)
+-   [Gallery of forkable sites](http://jlord.github.io/forkngo)  (Requires HTML & CSS)
+-   Create a repository and open issues with  [to-do lists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments).
+-   [Explore GitHub projects](https://github.com/explore)  for ones that match your interest.
