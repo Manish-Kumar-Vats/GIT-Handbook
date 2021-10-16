@@ -82,7 +82,7 @@ Install Git on your computer and configure your name and email.
 
 A  **repository**  is a collection of related items. In our case, when writing software, it is a collection of files related to a software project. You can imagine it as a project folder with all the relevant files inside of it. In fact, that's what it will look like on your computer anyways. Sometimes they're called 'repos' for short
 
-![git_repository_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/repo.png)
+![git_repository_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/repo.PNG)
 
 *Repositories just look like normal folders on your computer. However there is an important difference: Their content is beeing tracked by Git.*
 
@@ -226,7 +226,7 @@ When you put something on GitHub that copy lives on one of GitHub's servers. Thi
 
 Others can always then get the latest from your project by  **pulling**  your changes down from the remote (and onto their computer). This is how everyone can work on a project together without needing access to your computer where your local copy is stored.
 
-![git_remote_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/remote.png)
+![git_remote_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/remote.PNG)
 
 *The illustration shows a server (e.g. by GitHub), holding the **remote** repository and two computers, each of them holding a **local** copy of the repository. You can either access and edit the remote repository with your browser or edit the repository locally and tell your computer (on **terminal**) to talk to the server.*
 
@@ -308,7 +308,7 @@ When you  **fork**  a repository, you create a copy of it on your GitHub account
 To get a forked repository from your GitHub account onto your computer you  **clone**  it. This cloning action copies the remote repository onto your computer so that you can work on it locally.
 
 
-![git_fork_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/fork.png)
+![git_fork_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/fork.PNG)
 
 *By **forking** a foreign repository, you create a copy of the project as a new **remote** repository on your own GitHub Account. After **cloning** this new repository to your computer, you can work on it, **push** your changes to the server and even **pull** other peoples changes to your local copy. You can of course pull changes from the original repository too, but - as long as you don't have write-access - you can not push your changes there. We'll learn more on pulling later on.*
 
@@ -362,7 +362,7 @@ To be sure you have the correct remotes set up, type  `git remote -v`  to list o
 
 Git repositories use branches to isolate work when needed. It is common practice when working together on a project to create a  **branch**  to keep your working changes in. This allows different changes to be developed on separate branches without interfering with each other. When the work on your branch is finished, you merge your changes back into the main branch (commonly named 'master'). This main branch thus always contains a stable version of the project.
 
-![git_branch_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/branch.png)
+![git_branch_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/branch.PNG)
 
 *The diagram illustrates how you can branch off of your 'master' branch (the straight black line in the middle), do your work on a branch (dots illustrate commits) and then merge those changes back into 'master'. You can even branch off of a branch if you need to, the 'master' branch doesn't have to be the base.*
 For a great visualization on how branches work in a project, see this GitHub Guide:  [guides.github.com/overviews/flow](http://guides.github.com/overviews/flow/)
@@ -493,7 +493,7 @@ To add collaborators to one of your projects, visit the repository's page on you
 If you're working on something with someone else you need to stay up to date with the latest changes. So you'll want to  **pull**  in any changes that may have been pushed to the central GitHub repository.
   
 
-![git_fork_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/remote.png)
+![git_fork_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/remote.PNG)
 
 *If someone else **pushed** changes to the **remote** repository (on GitHub), you might want to **pull** these changes into your **local** repository.*
 
@@ -519,7 +519,7 @@ Did Reporobot make changes? Git tells you where changes were made. You can open 
 
 Often when you make changes and improvements to a project you've forked, you'll want to send those changes to the maintainer of the original and  **request**  that they  **pull**  those changes into the original so that everyone can benefit from the updates—that's a  **pull request**.  
 
-![git_pull_request_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/pull%20request.png)
+![git_pull_request_image](https://raw.githubusercontent.com/Manish-Kumar-Vats/GIT-Handbook/gh-pages/images/pull%20request.PNG)
 
 *Two files, belonging to the original repository (the red one on the left) and your forked repository (the blue one on the right) respectively. If you want to integrate your changes into the original repository, you'll need to create a pull-request, asking the maintainers to pull your changes over..*
 
