@@ -82,7 +82,7 @@ Install Git on your computer and configure your name and email.
 
 A  **repository**  is a collection of related items. In our case, when writing software, it is a collection of files related to a software project. You can imagine it as a project folder with all the relevant files inside of it. In fact, that's what it will look like on your computer anyways. Sometimes they're called 'repos' for short
 
-![git_branch_image](https://github.com/ad1tya-v3rma/hackober-repo--1/blob/main/images/repo.PNG)
+![git_repository_image](https://github.com/ad1tya-v3rma/hackober-repo--1/blob/main/images/repo.PNG)
 
 *Repositories just look like normal folders on your computer. However there is an important difference: Their content is beeing tracked by Git.*
 
@@ -225,7 +225,7 @@ When you put something on GitHub that copy lives on one of GitHub's servers. Thi
 
 Others can always then get the latest from your project by  **pulling**  your changes down from the remote (and onto their computer). This is how everyone can work on a project together without needing access to your computer where your local copy is stored.
 
-![git_branch_image](https://github.com/ad1tya-v3rma/hackober-repo--1/blob/main/images/repo.PNG)
+![git_remote_image](https://github.com/ad1tya-v3rma/hackober-repo--1/blob/main/images/remote.PNG)
 
 *The illustration shows a server (e.g. by GitHub), holding the **remote** repository and two computers, each of them holding a **local** copy of the repository. You can either access and edit the remote repository with your browser or edit the repository locally and tell your computer (on **terminal**) to talk to the server.*
 
