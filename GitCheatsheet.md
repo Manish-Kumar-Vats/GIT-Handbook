@@ -68,6 +68,11 @@ Below are the most useful **terminal** and **Git commands** used in the Git.
 `
  $ git add .
 `
+ **To add a paticular folder changes**
+`
+ $ git add "Folder/File name"
+`
+
 
  **To commit (aka save) the changes you've added with a short message describing the changes**
 `
